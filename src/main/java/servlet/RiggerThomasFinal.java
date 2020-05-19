@@ -15,8 +15,8 @@ import java.io.PrintWriter;
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet(name = "assignment6", // "MyServlet2",
-		urlPatterns = { "/assignment6" })
+@WebServlet(name = "RiggerThomasFinal", 
+		urlPatterns = { "/RiggerThomasFinal" })
 
 // assignment6 class
 // CONSTRUCTOR: no constructor specified (default)
