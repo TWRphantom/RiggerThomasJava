@@ -12,9 +12,9 @@
   
 <%@ page import="java.util.Date" %>
 <body>
-<h2>Hello Heroku! I am JSP</h2>
+<h2>Hello Mr. Offutt!</h2>
 <strong>Current Time is</strong>: <%=new Date() %>
-<button onclick="window.location.assign(servletURL);"> Try the servlet </button>
+<button onclick="window.location.assign(servletURL);"> Its the final exam servlet!!! </button>
 
 </body>
 </html>
