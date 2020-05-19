@@ -1,6 +1,5 @@
 /** *****************************************************************
-    assignment6.java   servlet example
-        @author Jeff Offutt
+    RiggerThomasFinal.java   servlet 
 ********************************************************************* */
 // package servlet;
 // Import Java Libraries
@@ -18,7 +17,7 @@ import javax.servlet.annotation.WebServlet;
 @WebServlet(name = "RiggerThomasFinal", 
 		urlPatterns = { "/RiggerThomasFinal" })
 
-// assignment6 class
+
 // CONSTRUCTOR: no constructor specified (default)
 //
 // ***************  PUBLIC OPERATIONS  **********************************
@@ -33,15 +32,15 @@ import javax.servlet.annotation.WebServlet;
 // private void PrintTail (PrintWriter out) --> Prints the HTML bottom
 //***********************************************************************
 
-public class assignment6 extends HttpServlet {
+public class RiggerThomasFinal extends HttpServlet {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	static String Domain = "swe432assignment6.herokuapp.com";
+	static String Domain = "RiggerThomasFinal.herokuapp.com";
 	static String Path = "/";
-	static String Servlet = "assignment6";
+	static String Servlet = "RiggerThomasFinal";
 	
 // Button labels
 	static String OperationAdd = "Add";
